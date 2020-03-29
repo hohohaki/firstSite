@@ -6,6 +6,7 @@ body{
 a{
     text-decoration: none;
     color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 body,p,div,a{
     margin: 0;
@@ -17,6 +18,32 @@ body,p,div,a{
 }
 section{
     height: 100vh;
+}
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    max-width: 800px;
+    font-family: 'Montserrat', sans-serif;
+}
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.white{
+    color: white;
+}
+.black{
+    color: black;
+}
+.grey{
+    color:grey;
 }
 /*header*/
 header{
@@ -73,27 +100,6 @@ header.scrolling .menu-link.active {
     justify-content: center;
     align-items: center;
 }
-.title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 64px;
-    text-align: center;
-    max-width: 800px;
-}
-.subtitle {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-}
-.white{
-    color: white;
-}
-.black{
-    color: black;
-}
 .home-btn{
     font-weight: 500;
     font-size: 16px;
@@ -121,6 +127,15 @@ header.scrolling .menu-link.active {
     justify-content: center;
     align-items: center;
 }
+.service-content .service-txt .title{
+    max-width: 900px;
+    padding-top: 80px;
+}
+
+
+
+
+
 /* VIDEO */
 .works-content{
     max-width: 970px;
