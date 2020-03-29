@@ -121,19 +121,49 @@ header.scrolling .menu-link.active {
     border-radius: 30px;
     cursor: pointer;    
 }
-/*Service*/
+/*SERVICE*/
 #service .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.service-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
 .service-content .service-txt .title{
     max-width: 900px;
-    padding-top: 80px;
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
-
-
-
+.service-content .service-txt .subtitle{
+    max-width: 650px;
+}
+.service-articles{
+    padding-top: 100px;
+}
+.service-articles-el1-big-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    border: 1px solid #E0E0E0;
+    border-radius: 100%;
+}
+.service-articles-small-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #4985FF;
+    border-radius: 100%;
+}
 
 
 /* VIDEO */
