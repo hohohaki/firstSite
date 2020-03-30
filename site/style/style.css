@@ -6,7 +6,7 @@ body{
 a{
     text-decoration: none;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat";
 }
 body,p,div,a{
     margin: 0;
@@ -26,7 +26,7 @@ section{
     line-height: 64px;
     text-align: center;
     max-width: 800px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat";
     letter-spacing: 1px;
 }
 .subtitle {
@@ -35,7 +35,7 @@ section{
     font-size: 16px;
     line-height: 25px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat";
 }
 .white{
     color: white;
@@ -224,13 +224,65 @@ header.scrolling .menu-link.active {
     background: #F6F6F8;
     max-height: 100vh;
 }
+.project-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
 .project-txt .title{
     font-size: 36px;
     text-align: left;
+    max-width: 430px;
+    padding-bottom: 40px;
 }
 .project-txt .subtitle{
     font-size: 16px;
     text-align: left;
+    color: #999999;
+    max-width: 490px;
+    padding-bottom: 30px;
+    
+}
+.project-txt a{
+    text-align: left;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #4985FF;
+    cursor: pointer;
+}
+.project-img{
+    display: block;
+    padding-left: 121px;
+}
+/* DIVIDING LINE */
+.prj-line{
+    margin-top: 90px;
+    width: 1110px;
+    border: 1px solid #E0E0E0;
+}
+/* OUR PROJECTS */
+.our-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.op-el{
+    padding-right: 100px;
+}
+.op-el-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.op-el-top .title{
+    padding-left: 20px;
+}
+
+.op-el-lower .subtitle{
+    letter-spacing: 2px;
 }
 /* VIDEO */
 .works-content{
