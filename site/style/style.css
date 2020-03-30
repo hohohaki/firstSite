@@ -226,7 +226,7 @@ header.scrolling .menu-link.active {
 }
 .project-article{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding-top: 100px;
 }
@@ -253,7 +253,7 @@ header.scrolling .menu-link.active {
 }
 .project-img{
     display: block;
-    padding-left: 121px;
+    padding-left: 100px;
 }
 /* DIVIDING LINE */
 .prj-line{
