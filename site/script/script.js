@@ -28,4 +28,11 @@ document.addEventListener('DOMContentLoaded', function(){
 
     let videoButton = document.querySelector(".videoplay a");
     videoButton.addEventListener("click", setVideoPlay);
+
+    document.getElementById('video').addEventListener('ended',myHandler,false);
+
+    function myHandler() {
+        video.style.display = 'none';
+        videoButton.style.display = 'block'
+    }
 });

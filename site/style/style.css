@@ -8,6 +8,11 @@ a{
     color: black;
     font-family: "Montserrat";
 }
+.a-stylisized{
+    text-decoration: underline;
+    color: #4985FF;
+    cursor: pointer;
+}
 body,p,div,a{
     margin: 0;
     padding: 0;
@@ -45,6 +50,9 @@ section{
 }
 .grey{
     color:grey;
+}
+.blue{
+    color: #4985FF;
 }
 /*header*/
 header{
@@ -121,7 +129,9 @@ header.scrolling .menu-link.active {
     background: #4985FF;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
-    cursor: pointer;    
+    cursor: pointer;
+    font-family: "Montserrat";    
+    color: white;
 }
 /*SECTION #2 (SERVICE) START*/
 #service .container{
@@ -227,6 +237,7 @@ header.scrolling .menu-link.active {
 .project-article{
     display: flex;
     justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding-top: 100px;
 }
@@ -253,12 +264,11 @@ header.scrolling .menu-link.active {
 }
 .project-img{
     display: block;
-    padding-left: 100px;
 }
 /* DIVIDING LINE */
-.prj-line{
+.div-line{
     margin-top: 90px;
-    width: 1110px;
+    width: 1200px;
     border: 1px solid #E0E0E0;
 }
 /* OUR PROJECTS */
@@ -281,20 +291,52 @@ header.scrolling .menu-link.active {
     padding-left: 20px;
 }
 
-.op-el-lower .subtitle{
-    letter-spacing: 2px;
+.op-el-lower{
+    display: flex;
+    justify-content: flex-start;
 }
 /* SPEC JOBS */
-
-.spec-jobs-part-1{
-    height: 50vh;
-    width: 100%;
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+#spec-jobs{
+    background: linear-gradient(to bottom, #5f12d0 0%,#504dc2 50%,#ffffff 50%,#ffffff 100%);
 }
-.spec-jobs-part-2{
-    height: 50vh;
-    width: 100%;
-   
+.jobs-txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    max-width: 1110px;
+}
+.jobs-articles{
+    padding-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+.jobs-txt .title{
+    font-size: 36px;
+    text-align: left;
+    max-width: 600px;
+    
+}
+.jobs-articles-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.ja-title{
+    text-align: left;
+    padding-top: 30px;
+}
+.ja-subtitle{
+    text-align: left;
+    max-width: 350px;
+    padding-top: 30px;
+}
+.ja-a{
+    padding-top: 30px;
 }
 /* VIDEO */
 .works-content{
