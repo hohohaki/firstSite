@@ -284,6 +284,18 @@ header.scrolling .menu-link.active {
 .op-el-lower .subtitle{
     letter-spacing: 2px;
 }
+/* SPEC JOBS */
+
+.spec-jobs-part-1{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+.spec-jobs-part-2{
+    height: 50vh;
+    width: 100%;
+   
+}
 /* VIDEO */
 .works-content{
     max-width: 970px;
