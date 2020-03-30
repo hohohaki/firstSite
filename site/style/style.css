@@ -224,7 +224,14 @@ header.scrolling .menu-link.active {
     background: #F6F6F8;
     max-height: 100vh;
 }
-
+.project-txt .title{
+    font-size: 36px;
+    text-align: left;
+}
+.project-txt .subtitle{
+    font-size: 16px;
+    text-align: left;
+}
 /* VIDEO */
 .works-content{
     max-width: 970px;
