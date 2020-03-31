@@ -30,7 +30,7 @@ section{
     font-size: 48px;
     line-height: 64px;
     text-align: center;
-    max-width: 800px;
+    max-width: 1200px;
     font-family: "Montserrat";
     letter-spacing: 1px;
 }
@@ -306,7 +306,7 @@ header.scrolling .menu-link.active {
     justify-content: space-between;
     align-items: center;
     padding-top: 100px;
-    max-width: 1110px;
+    max-width: 1200px;
 }
 .jobs-articles{
     padding-top: 70px;
@@ -337,6 +337,39 @@ header.scrolling .menu-link.active {
 }
 .ja-a{
     padding-top: 30px;
+}
+/* PROJECT-SECTION(6) */
+#project-section{
+    background: #F6F6F8;
+    
+}
+#project-section  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 50vh;
+}
+.proj-sec-txt{
+    padding-top: 100px;
+}
+.proj-sec-txt .title{
+    font-size: 36px;
+} 
+ .proj-sec-txt .subtitle{
+    font-size: 16px;
+    max-width: 730px;
+    padding-top: 50px;
+}
+.proj-sec-imgs{
+    margin-top: 70px;
+}
+.proj-sec-img{
+    padding-right: 30px;
+}
+.proj-sec-button{
+    margin-top: 63px;
 }
 /* VIDEO */
 .works-content{
