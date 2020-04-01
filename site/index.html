@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first site</title>
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style/fonts.css">
     <script type="text/javascript" src="script/script.js"></script>
 </head>
 <body>
@@ -14,19 +14,19 @@
             <div  class="container">
                 <div class="menu">
                     <div class="menu-link active">
-                        <a>Главная</a>
+                        <a href="#home">Главная</a>
                     </div>
                     <div class="menu-link">
-                        <a>Наши проекты</a>
+                        <a href="#service">Наши проекты</a>
                     </div>
                     <div class="menu-link">
-                        <a>Услуги</a>
+                        <a href="#projects">Услуги</a>
                     </div>
                     <div class="menu-link">
-                        <a>Новости</a>
+                        <a href="#spec-jobs">Новости</a>
                     </div>
                     <div class="menu-link">
-                        <a>Контакты</a>
+                        <a href="#email">Контакты</a>
                     </div>
                     
                 </div>
@@ -242,8 +242,18 @@
             </div>
         </section>
        
-        <section>
-            Section 7
+        <section  class="email" id="email">
+            <div class="container">
+                <p class="title black">Подпишитесь на нашу рассылку</p>
+                <p class="subtitle grey">Полезные статьи, акции, новости - получите все это сейчас!</p>
+                <div class="email-content">
+                    <input type="email" placeholder="Ваш email">
+                    <button class="button">Подписаться</button>
+                    <p class="error">Invalid email</p>
+                </div>
+                <p class="email-footer"> Мы не шлем спам, и передаем никому ваши данные. </p>
+                
+            </div>
         </section>
 
        
