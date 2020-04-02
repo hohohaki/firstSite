@@ -21,7 +21,7 @@ body,p,div,a{
     margin: 0 auto;
     width: 1200px; 
 }
-section{
+#home{
     height: 100vh;
 }
 .title {
@@ -132,6 +132,7 @@ header.scrolling .menu-link.active {
     cursor: pointer;
     font-family: "Montserrat";    
     color: white;
+    margin-bottom: 120px;
 }
 /*SECTION #2 (SERVICE) START*/
 #service .container{
@@ -277,6 +278,7 @@ header.scrolling .menu-link.active {
     justify-content: center;
     align-items: center;
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 .op-el{
     padding-right: 100px;
@@ -288,7 +290,7 @@ header.scrolling .menu-link.active {
     align-items: center;
 }
 .op-el-top .title{
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .op-el-lower{
@@ -298,6 +300,9 @@ header.scrolling .menu-link.active {
 /* SPEC JOBS */
 #spec-jobs{
     background: linear-gradient(to bottom, #5f12d0 0%,#504dc2 50%,#ffffff 50%,#ffffff 100%);
+}
+#spec-jobs .container .div-line{
+    margin-bottom: 85px;
 }
 .jobs-txt{
     display: flex;
@@ -349,7 +354,7 @@ header.scrolling .menu-link.active {
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    max-height: 50vh;
+    /* max-height: 50vh; */
 }
 .proj-sec-txt{
     padding-top: 100px;
@@ -369,15 +374,30 @@ header.scrolling .menu-link.active {
     padding-right: 30px;
 }
 .proj-sec-button{
-    margin-top: 63px;
+   margin-top: 50px;
+   margin-bottom: 100px;
 }
 /* VIDEO */
+#works {
+    background: url(../img/videoback.png) no-repeat top center ;
+    margin-bottom: 85px;
+}
+#works .container .title{
+    font-size: 36px;
+    padding-top: 70px;
+}
+#works .container .subtitle{
+    font-size: 16px;
+    margin-top: 30px;
+}
 .works-content{
     max-width: 970px;
     position: relative;
     margin: 0 auto;
+    margin-top:100px ;
 }
 video{
+   
     display: none;
 }
 .videoplay{
