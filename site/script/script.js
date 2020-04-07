@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', function(){
     //flow scroll
     const links = document.querySelectorAll('header a[href*="#"]');
+    const footerLinks = document.querySelectorAll('footer a[href*="#"]');
     
     function cleanActiveLinks(){
         const parentsLinks = document.getElementsByClassName('menu-link');
@@ -26,6 +27,21 @@ document.addEventListener('DOMContentLoaded', function(){
             event.target.closest('div').classList.add('active');
         });
     }
+
+    for(let link of footerLinks){
+        console.log(link);
+        link.addEventListener('click', function(){
+            event.preventDefault();
+            const linkID = link.getAttribute('href').substr(1);
+            document.getElementById(linkID).scrollIntoView({
+                block:"center",
+                behavior:"smooth"
+            }); 
+            cleanActiveLinks();
+            event.target.closest('div').classList.add('active');
+        });
+    }
+
 
     function changeHeader(){
         console.log(document.getElementsByTagName('header')[0]);

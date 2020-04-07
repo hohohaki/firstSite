@@ -499,7 +499,60 @@ video{
     font-family: "Montserrat";
     display: none;
 }
-
+/* FOOTER */
+footer{
+    background: #F6F6F8;
+}
+footer .container{
+    padding-top: 70px;
+}
+.columns{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.column-list{
+    max-width: 255px;
+}
+.ul-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 35px;
+}
+.li-subtitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+    margin-left: 30px;
+}
+.column-list{
+    list-style: none;
+}
+.column-list li{
+    display: flex;
+    margin-bottom: 30px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+.copyright-txt{
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
 /* MEDIA */
 @media all and (max-width: 1200px) {
     .container {
