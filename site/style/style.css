@@ -132,7 +132,7 @@ header.scrolling .menu-link.active {
     cursor: pointer;
     font-family: "Montserrat";    
     color: white;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 }
 /*SECTION #2 (SERVICE) START*/
 #service .container{
@@ -186,6 +186,7 @@ header.scrolling .menu-link.active {
     justify-content: center;
     align-items: center;
     padding-top: 40px;
+    padding-bottom: 100px;
 }
 /* SERVICE ARTICLE ICONS */
 .service-articles-el-big-circle{
@@ -554,8 +555,167 @@ footer .container{
     padding-bottom: 35px;
 }
 /* MEDIA */
-@media all and (max-width: 1200px) {
-    .container {
-        width: 90%;
+@media all and (max-width: 380px) {
+
+    header{
+        display: none;
+    }
+
+    .button{
+        margin-bottom: 60px;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+
+    .subtitle{
+        font-size: 14px;
+    }
+
+    .container{
+        width: 375px;
+        
+    }
+
+    .service-articles{
+        flex-direction: column;
+    }
+
+    .service-art-el{
+        margin-bottom: 20px;
+    }
+
+    .service-articles-el-txt {
+        padding-top: 10px;
+    }
+
+    .project-article{
+        flex-direction: column;
+    }
+
+    .op-el{
+        padding-right: 25px;
+    }
+
+    .project-txt{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .project-txt .title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .project-txt .subtitle{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .project-txt a{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .project-img{
+        width: 260px;
+        height: 210px;
+    }
+
+    .jobs-txt{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .jobs-txt .title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .jobs-txt .button{
+        margin-top: 20px;
+    }
+
+    .jobs-articles{
+        flex-direction: column;
+    }
+
+    .jobs-articles-el{
+        margin-bottom: 20px;
+    }
+
+    .proj-sec-imgs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proj-sec-img{
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .div-line{
+        /* width: 345px; */
+        display: none;
+    }
+
+    #works{
+        margin: 0px;
+    }
+
+    #works .container .title{
+        padding-top: 20px;
+    }
+
+    #works .container .subtitle{
+        padding-bottom: 20px;
+    }
+
+    .works-content{
+        width: 375px;
+        height: 200px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .video-background{
+        display: none;
+    }
+
+    .videoplay a{
+        margin-bottom: 50px;
+    }
+
+    #video{
+        width: 365px;
+    }
+
+    .email .container{
+        padding: 60px 0;
+        border: 0px;
+    }
+
+    .email .container .subtitle{
+        font-size: 14px;
+    }
+
+    .email-content{
+        width: 345px;
+    }
+
+    .email-content button{
+        font-size: 14px;
+    }
+
+    .columns{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .copyright{
+        background-color: white;
     }
 }
