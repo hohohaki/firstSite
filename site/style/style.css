@@ -276,13 +276,13 @@ header.scrolling .menu-link.active {
 /* OUR PROJECTS */
 .our-projects{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-top: 70px;
     padding-bottom: 70px;
 }
 .op-el{
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
 .op-el-top{
     display: flex;
@@ -595,7 +595,7 @@ footer .container{
     }
 
     .op-el{
-        padding-right: 25px;
+        /* padding-right: 25px; */
     }
 
     .project-txt{
@@ -717,5 +717,12 @@ footer .container{
 
     .copyright{
         background-color: white;
+    }
+
+    .fifth-op, .fourth-op{
+        display: none;
+    } 
+    #projects{
+        max-height: none;
     }
 }
